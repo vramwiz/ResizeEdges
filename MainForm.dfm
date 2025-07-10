@@ -25,7 +25,6 @@ object FormMain: TFormMain
     Align = alTop
     BevelOuter = bvNone
     TabOrder = 0
-    ExplicitWidth = 505
     object Button1: TButton
       Left = 480
       Top = 0
@@ -35,8 +34,6 @@ object FormMain: TFormMain
       Caption = 'x'
       TabOrder = 0
       OnClick = Button1Click
-      ExplicitLeft = 464
-      ExplicitTop = 1
     end
   end
   object ListBox1: TListBox
@@ -47,9 +44,5 @@ object FormMain: TFormMain
     Align = alClient
     ItemHeight = 13
     TabOrder = 1
-    ExplicitLeft = 136
-    ExplicitTop = 88
-    ExplicitWidth = 121
-    ExplicitHeight = 97
   end
 end
