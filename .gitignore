@@ -1,0 +1,33 @@
+# Delphi IDE
+__history/
+*.identcache
+*.local
+*.dcu
+*.~*
+*.stat
+*.tvsconfig
+*.exe
+*.dll
+*.bpl
+*.dcp
+*.map
+*.so
+*.a
+*.o
+*.ppu
+*.rsj
+*.rsm
+*.dsk
+
+# 一般的に除外されるファイル
+*.tmp
+*.bak
+
+# 出力フォルダ（構成による）
+Win32/
+Win64/
+Debug/
+Release/
+
+# 公開用バイナリ（インストーラーなど）
+up/

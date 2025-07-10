@@ -73,7 +73,6 @@ end;
 procedure TFormMain.SetEdges;
 begin
   TResizeEdgeHelper.MoveHandleHeight := 32;
-
   TResizeEdgeHelper.AttachEdges(Panel1, Panel1.Height,[rdMove,rdLeft,rdRight,rdTop]);
   TResizeEdgeHelper.AttachEdges(ListBox1, 8,[rdBottom,rdLeft,rdRight]);
 end;
